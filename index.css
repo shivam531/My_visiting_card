@@ -1,0 +1,100 @@
+body {
+    background-color: rgb(34, 33, 95);
+    display: flex;
+    
+    position: relative;
+}
+
+
+
+.centre {
+    display: flex;
+    width: 82vh;
+    height: 57vh;
+    position: absolute;
+    left: 32%;
+    top: 48%;
+    background-color: rgb(206, 200, 200);
+    margin: 152px 0px 0px -19px;
+}
+
+.centre .uper img {
+    position: absolute;
+    right: 28%;
+    width: 38%;
+    height: auto;
+}
+
+.centre .lower h1{
+    position: absolute;
+    color: aliceblue;
+    right: 31%;
+    top: 60%;
+}
+
+.centre .lower h2{
+    position: absolute;
+    color: aliceblue;
+    right: 29%;
+    top: 66%;
+}
+
+.centre .lower h3{
+    position: absolute;
+    color: aliceblue;
+    right: 42%;
+    top: 73%;
+}
+
+/* .centre .footer img {
+   position: absolute;
+    width: 8%;
+    right: 70%;
+    top :85%
+    
+}
+
+.centre .footer .logo2 img{
+    position: absolute;
+     width: 8%;
+     right: 55%;
+     top :85%
+ }
+ .centre .footer .logo3 img{
+    position: absolute;
+     width: 8%;
+     right: 40%;
+     top :85%
+ } */
+.centre .footer ul li {
+    display: flex;
+    list-style: none;
+    width: 10%;
+    mix-blend-mode: multiply;
+    
+}
+
+.centre .footer ul  li img{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 15%;
+    right: 87%;   
+    top: 80%
+}
+
+.centre .footer ul  li .logo2{
+    
+    width: 15%;
+    right: 40%;   
+    top: 81%
+    
+   
+}
+
+.centre .footer ul  li .logo3{
+    
+    width: 13%;
+    right: -4%;   
+    top: 81%
+}
